@@ -1,34 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PA5 README</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-        }
-        code {
-            background-color: #f4f4f4;
-            padding: 2px 4px;
-            border-radius: 4px;
-        }
-        pre {
-            background-color: #f4f4f4;
-            padding: 10px;
-            border-radius: 4px;
-            overflow-x: auto;
-        }
-        h1, h2, h3 {
-            color: #333;
-        }
-        ul {
-            margin: 10px 0;
-        }
-    </style>
-</head>
+
 <body>
  <h1>PA5: Combined PA3 and PA4 Workflows</h1>
     <h2>Overview</h2>
