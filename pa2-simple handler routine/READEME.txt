@@ -1,0 +1,48 @@
+# Noah Caulfield
+# 10/10/2024
+# Class: CS 461, Operating systems at Eastern New Mexico University 
+# Assignment PA2 Signal Handler Routine
+
+# handler.cc: Signal Handling Demo
+
+## Purpose:
+This C++ program demonstrates setting signal handlers for SIGUSR1 and SIGUSR2. Upon receiving:
+- SIGUSR1: The program outputs the current date and time.
+- SIGUSR2: The program outputs the program author's name.
+
+The program resets the signal handler inside the handler function to ensure it remains enabled. If there are any errors in setting the signal handler, the program will output an error and exit.
+
+## Files:
+1. handler.cc - Main source code containing the signal handler.
+2. Makefile - A Makefile for compiling and running the program.
+3. README.txt - This file, which explains the structure of the code.
+
+## Compilation and Running:
+1. To compile the program, run:
+make
+
+2. To run the program, use:
+
+./handler &
+
+
+** Note **; <PID> value is found via the output from executing "./handler &".
+Replace with this value before running step 3. 
+
+3. To send signals to the running program, use the `kill` command:
+- For current date and time:
+
+  ```
+  kill -USR1 <PID>
+  ```
+- For the author's name:
+  ```
+  kill -USR2 <PID>
+  ```
+- To terminate:
+  ```
+  kill <PID>
+  ```
+4. To clean the compiled files, use:
+
+make clean
