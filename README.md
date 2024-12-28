@@ -16,7 +16,9 @@ This repository contains solutions and implementations showcasing key concepts i
 
 ## Repository Example Structure  
 
-**Note, not all projects are listed below**
+**NOTE, not all projects are listed below**
+
+**NOTE, semester project now housed separately**
 
 - **PA3 - Shared Memory Sorting:**  
   Program that uses shared memory to implement sorting algorithms. Demonstrates inter-process communication and memory sharing.
